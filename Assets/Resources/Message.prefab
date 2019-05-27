@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 114263385091581402}
   - component: {fileID: 114573763974868782}
   - component: {fileID: 114266041530833118}
+  - component: {fileID: 114352420144889132}
   m_Layer: 5
   m_Name: Message
   m_TagString: Untagged
@@ -95,6 +96,17 @@ MonoBehaviour:
     InterpolateOption: 0
     InterpolateMoveTowardsSpeed: 1
     InterpolateLerpSpeed: 0
+--- !u!114 &114352420144889132
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1128098815898654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0b3a2e51ac43854491bdb76b85ccadd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114573763974868782
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -113,7 +125,7 @@ MonoBehaviour:
   OwnershipTransfer: 0
   ObservedComponents:
   - {fileID: 114266041530833118}
-  viewIdField: 1
+  viewIdField: 0
   InstantiationId: 1
   isRuntimeInstantiated: 0
 --- !u!222 &222285722899549436
